@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+using namespace std;
+
+
+int main() {
+int a, b;
+
+printf("Digite um numero para A:\n");
+scanf("%d", &a);
+
+printf("Digite um numero para B:\n");
+scanf("%d", &b);
+
+if(a < b){
+	printf("%d e menor que  %d:\n", a, b);
+}
+if(a > b){
+	printf("%d  e maior que  %d:\n", a, b);
+}
+	return 0;
+}
